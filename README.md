@@ -28,4 +28,4 @@ Ensure you have a modern web browser installed such as Google Chrome, Mozilla Fi
 3. Open the index.html file in your web browser.
 
 ### Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+Contributions are welcome! Feel free to fork the repository and submit pull request.
