@@ -2,7 +2,7 @@
 
 Welcome to the Task Tracker, an intuitive web application designed to enhance your productivity by keeping your tasks well-organized. Whether you're juggling personal tasks or managing work-related projects, Task Tracker offers a simple interface to manage it all.
 
-### Visit the web page
+## Visit the web page
 
 https://mustafaahmed00.github.io/Task-Tracker/
 
@@ -14,5 +14,5 @@ https://mustafaahmed00.github.io/Task-Tracker/
 - **Persistent Storage**: Tasks are saved in local storage, so you won't lose your data when you close the browser.
 - **Responsive Design**: Access your tasks comfortably on both desktop and mobile devices.
 
-### Contributing
+## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull request.
