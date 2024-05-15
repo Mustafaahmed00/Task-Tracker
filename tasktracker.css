@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.task-input-area {
+    margin-bottom: 20px;
+}
+
+.task-input-area input,
+.task-input-area select,
+.task-input-area button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.task-input-area button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.task-input-area button:hover {
+    background-color: #45a049;
+}
+
+.sort-tasks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sort-tasks label {
+    margin-right: 10px;
+}
+
+.sort-tasks select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures elements are spaced out */
+}
+
+li label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+li span {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: inline-block;
+    min-width: 80px; /* Ensures width for date and priority */
+    text-align: center;
+}
+
+li span[data-type="date"] {
+    color: #555;
+}
+
+li span[data-type="priority"] {
+    color: #fff;
+    background-color: #f44336; /* Red for high priority */
+}
+
+li span[data-priority="medium"] {
+    background-color: #ffeb3b; /* Yellow for medium priority */
+}
+
+li span[data-priority="low"] {
+    background-color: #4caf50; /* Green for low priority */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .task-input-area, .sort-tasks {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.header {
+    background-color: #031930; /* Blue shade */
+    color: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em; /* Large text size */
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.2em; /* Slightly larger than normal text */
+}
+
+
